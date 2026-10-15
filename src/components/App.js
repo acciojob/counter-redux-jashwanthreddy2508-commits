@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div>
         {/* Do not remove the main div */}
-    <p>{input}</p>
+    <h1>{input}</h1>
     <button onClick={()=>{dispatch(increment())}>Increment</button>
   <button onClick={()=>{dispatch(decrement())}>Decrement</button>
     </div>
