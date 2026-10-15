@@ -1,7 +1,7 @@
 
 import React from "react";
 import './../styles/App.css';
-import {useSelector,useDispatch} from "react";
+import {useSelector,useDispatch} from "react-redux";
 
 const App = () => {
 
